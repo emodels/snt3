@@ -1,0 +1,2 @@
+Cufon.replace('ul.sf-menu > li > a, .button, .link, ul.list2 li a strong, .link-1, .link2, .button-1', { fontFamily: 'Lato Black', hover:true });
+Cufon.replace('h2, h1, .block1', { fontFamily: 'Lato Black' })
