@@ -2,131 +2,95 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="en" />
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/reset.css" type="text/css" media="all">
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/grid.css" type="text/css" media="all">
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/prettyPhoto.css" type="text/css" media="screen"> 
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.4.2.min.js" ></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon-yui.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon-replace.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/contact-form.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/Lato_Black_900.font.js"></script>
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.faded.js" type="text/javascript"></script>
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/script.js" type="text/javascript"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/easyTooltip.js"></script>
-    <script type="text/javascript">
-              $(document).ready(function(){
-                  $(".icon a.tooltips").easyTooltip();
-              });
-    </script>
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/hover-image.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/superfish.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('ul.sf-menu').superfish();
-    });
-    </script>  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <script src="js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="js/ff_cash.js" type="text/javascript"></script>
+    <script src="js/superfish.js" type="text/javascript"></script>
+    <script src="js/tms-0.3.2.js" type="text/javascript"></script>
+    <script src="js/tms_presets.js" type="text/javascript"></script>
+    <script src="js/easyTooltip.js" type="text/javascript"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script> 
+    <script src="js/cufon-yui.js" type="text/javascript"></script>
+    <script src="js/cufon-replace.js" type="text/javascript"></script>
+    <script src="js/Lato_Black_900.font.js" type="text/javascript"></script>
+    <script src="js/Lato_700.font.js" type="text/javascript"></script>   
+	<!--[if lt IE 7]> 
+  <div style='clear:both; text-align:center; position:relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img                       src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a  faster, safer browsing experience, upgrade for free today." /></a></div>
+ <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	<![endif]-->
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
-<div class="container" id="page">
-    <header>
-        <div class="top">
-            <div class="main">
-                <h1><a href="#">Hatha</a></h1>
-                <form action="http://www.google.com/search" id="Search"><div class="indent"><div class="rowElem1"><input type="text" name="q" class="input" value="Searching ..." onBlur="if(this.value=='') this.value='Searching ...'" onFocus="if(this.value =='Searching ...' ) this.value=''"  /><a href="#" onClick="document.getElementById('Search').submit()" ><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/button1.gif" /></a></div><div style="display: none"><input type="checkbox" name="sitesearch" value="snt3.com" checked /></div></div></form>
-                <div class="indent1">
-                    <div class="addinto_sharebox addinto_sharebox_default">
-                    <a class="addinto_button_email"></a>
-                    <a class="addinto_button_print"></a>
-                    <a class="addinto_button_bookmark"></a>
-                    <a class="addinto_button_facebook"></a>
-                    <a class="addinto_button_twitter"></a>
-                    <a class="addinto_button_google_plus"></a>
-                    <a class="addinto_button_separator"></a>
-                    <a href="http://www.addinto.com/ai?type=bkmk" class="addinto_button_more_dd"></a>
-                    </div>
-                    <script type="text/javascript" src="http://static.addinto.com/ai/ai2_bkmk.js"></script>
-                </div>
-                <div class="inside">
-                    <nav>
-                        <ul class="sf-menu">
-                            <li class="current"><a href="#" style="width: 80px">Home</a></li>
-                            <li><a href="#">IT Outsourcing</a></li>
-                            <li><a href="#">Talent Acquisition</a>
-                                    <ul>
-                                    <li><a href="#">Investment</a></li>
-                                    <li><a href="#">Marketing</a>
-                                            <ul>
-                                            <li><a href="#">PR</a></li>
-                                            <li><a href="#">Advertising</a></li>
-                                            <li><a href="#">Brand Policy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Management</a></li>
-                                    <li><a href="#">Strategic planning</a></li>
-                                    <li><a href="#">Web services</a></li>
-                                </ul>
+<header class="header">
+    <div class="row-1">
+    	<div class="main">
+       	  <h1><a class="logo" href="#">Guide marketing company</a></h1>
+            <ul class="list-services">
+            	<li><a class="tooltip" title="Linkedin" href="#"><img src="images/pict-1.png" width="24" height="24" alt=""></a></li>
+                <li><a class="tooltip" title="Facebook" href="#"><img src="images/pict-2.png" width="24" height="24" alt=""></a></li>
+                <li><a class="tooltip" title="Twitter" href="#"><img src="images/pict-3.png" width="24" height="24" alt=""></a></li>
+                <li><a class="tooltip" title="Technorati" href="#"><img src="images/pict-4.png" width="24" height="24" alt=""></a></li>
+            </ul>
+            <nav>
+                <ul class="sf-menu">
+                    <li><a class="current" href="#"><strong><strong>Home</strong></strong></a></li>
+                    <li><a href="#"><strong><strong>IT Outsourcing</strong></strong></a></li>
+                    <li><a href="#"><strong><strong>Services</strong></strong></a>
+                    	<ul>
+                            <li><a href="#"><strong><strong>Talent Acquisition</strong></strong></a></li>
+                            <li><a href="#"><strong><strong>Hosted Solutions</strong></strong></a></li>
+                            <li><a href="#"><strong><strong>Offshore Service Offerings</strong></strong></a>
+                            	<!--<ul>
+                                   <li><a href="#"><strong><strong>PR</strong></strong></a></li>
+                                   <li><a href="#"><strong><strong>Advertising</strong></strong></a></li>
+                                   <li><a href="#"><strong><strong>Brand Policy</strong></strong></a></li>
+                               </ul>-->
                             </li>
-                            <li><a href="#">Hosted Solutions</a></li>
-                            <li><a href="#">Offshore Service offerings</a></li>
-                            <li><a href="#" style="width: 70px">About us</a></li>
-                            <li><a href="#" style="width: 70px">Contact us</a></li>
                         </ul>
-                    </nav>
+                    </li>
+                    <li><a href="#"><strong><strong>about us</strong></strong></a></li>
+                    <li><a href="#"><strong><strong>contacts</strong></strong></a></li>	
+                </ul>
+          </nav>
+        </div>
+    </div>
+</header>
+<!--==============================End header=================================-->
+    <?php echo $content; ?>
+<!--==============================footer=================================-->
+<footer>
+	<div class="main">
+        <div class="wrapper">
+            <div class="text-bot">
+                <div class="wrapper">
+                    <a href="#" class="logo-bot">Guide</a>
+                    <div class="extra-wrap">
+                        <div class="padding-top1">&copy; 2011</div>
+                    </div>
                 </div>
+                <a href="#" class="privacy">Privacy Policy</a>
+            </div>
+            <div class="address">
+            	50 Huntington Drive<br>Craigieburn, VIC 3064,<br>Australia.
+            </div>
+            <div class="contacts">
+            	E -mail: <a href="#" class="link color-3">info@snt3.com</a><br>Phone: +61431 108 137<br>Fax: 03 8339 4812
+            </div>
+            <div class="footer-link">
+                <a href="#" alt="" class="tooltip" title="LinkedIn"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>
+                <a href="#" alt="" class="tooltip" title="Facebook"><img src="images/facebook.png" alt="" style="width: 50px; height: 50px;" /></a>
+                <a href="#" alt="" class="tooltip" title="Twitter"><img src="images/twitter.png" alt="" style="width: 50px; height: 50px;" /></a>
+                <a href="#" alt="" class="tooltip" title="Technorati"><img src="images/techno.png" alt="" style="width: 50px; height: 50px;" /></a>
             </div>
         </div>
-    </header>
-    <?php echo $content; ?>
-    <div class="clear"></div>
-    <footer>      
-        <div class="main">
-            <div class="container_24">
-                            <div class="inside">
-                                    <div class="container">
-                                            <div class="grid_7 alpha">
-                                                    <div class="container"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/title.gif" class="fleft" /></div>
-                                                    <!--{%FOOTER_LINK}-->
-                                            </div>
-                                            <div class="grid_3">
-                                                    <h2>Why Us</h2>
-                                                    <ul>
-                                                            <li><a href="#">Our Clients</a></li>
-                                                            <li><a href="#">Technology</a></li>
-                                                            <li><a href="#">IT Outsourcing</a></li>
-                                                    </ul>
-                                            </div>
-                                            <div class="grid_4">
-                                                    <h2>Quick Links</h2>
-                                                    <ul>
-                                                            <li><a href="#">Talent Acquisition</a></li>
-                                                            <li><a href="#">Hosted Solutions</a></li>
-                                                            <li><a href="#">Offshore Services</a></li>
-                                                    </ul>
-                                            </div>
-                                            <div class="grid_5">
-                                                    <h2>Support</h2>
-                                                    <ul>
-                                                            <li><a href="#">Contact us</a></li>
-                                                            <li><a href="#">Help Desk</a></li>
-                                                            <li><a href="#">About us</a></li>
-                                                    </ul>
-                                            </div>
-                                            <div class="grid_5 omega">
-                                                    <h2>Newsletter:</h2>
-                                                    <form action="" id="Search1"><div class="container">
-                                                            <div class="rowElem2"><input type="text" class="input1" value="Enter your email here" onBlur="if(this.value=='') this.value='Enter your email here'" onFocus="if(this.value =='Enter your email here' ) this.value=''"  /></div>
-                                                            <a href="#" onClick="document.getElementById('Search1').submit()" class="button">subscribe</a>
-                                                    </div></form>
-                                            </div>
-                                    </div>        
-                            </div>
-                    </div>
-        </div>   
-    </footer>   
-</div><!-- page -->
+    </div>
+</footer>
+<!--==============================End footer=================================-->
 </body>
 </html>

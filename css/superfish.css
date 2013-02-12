@@ -1,0 +1,77 @@
+.sf-menu {position:absolute; top:57px; right:-1px; margin:0; padding:0; z-index:3;}
+.sf-menu > li {
+	float:left; 
+	margin:0 0 0 4px;
+	position:relative;
+}
+.sf-menu > li > a {
+	display:block;
+	font-size:12px;
+	line-height:18px;
+	color:#00ccff;
+	text-transform:uppercase;
+	text-decoration:none; 
+	position:relative;
+	background:url(../images/menu-left.png) left 0 no-repeat;
+}
+.sf-menu > li > a strong {display:inline-block; padding:0 9px; background:url(../images/menu-right.png) right 0 no-repeat;}
+.sf-menu > li > a strong strong {padding:12px 0 9px; width:115px; text-align:center; background:url(../images/menu-tail.png) 0 0 repeat-x; cursor:pointer;}
+.sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu li a.current {background-position:0 bottom;}
+.sf-menu li a:hover strong, .sf-menu li.sfHover a strong, .sf-menu li a.current strong {background-position:right bottom;}
+.sf-menu li a:hover strong strong, .sf-menu li.sfHover a strong strong, .sf-menu li a.current strong strong {background:url(../images/menu-tail.png) 0 bottom repeat-x; color:#ff0000;}
+
+/***********************submenu***********************/
+.sf-menu ul {
+	display:none;
+	position:absolute;
+	width:220px; /* left offset of submenus need to match (see below) */
+	padding:18px 3px 20px 4px;
+	border-radius:8px;
+	background:#141e2c;
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {left:2px; top:33px; z-index:99;}
+.sf-menu ul li {width:100%; margin:0; position:relative;}
+.sf-menu li:hover li a, .sf-menu li.sfHover li a {
+	display:block;
+	font-size:13px;
+	line-height:18px;
+	color:#25b2c9;
+	font-weight:700;
+	position:relative;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:url(../images/submenu-left.png) left 0 no-repeat;
+}
+.sf-menu li:hover li a strong, .sf-menu li.sfHover li a strong {display:inline-block; padding:0 9px; background:url(../images/submenu-right.png) right 0 no-repeat;}
+.sf-menu li:hover li a strong strong, .sf-menu li.sfHover li a strong strong {padding:4px 0 6px 16px; width:186px; background:url(../images/submenu-tail.png) 0 0 repeat-x; cursor:pointer;}
+.sf-menu li li a:hover, .sf-menu li li.sfHover a {background-position:0 bottom;}
+.sf-menu li li a:hover strong, .sf-menu li li.sfHover a strong {background-position:right bottom;}
+.sf-menu li li a:hover strong strong, .sf-menu li li.sfHover a strong strong {background:url(../images/submenu-tail.png) 0 bottom repeat-x;}
+
+/***********************submenu2***********************/
+.sf-menu ul ul {
+	width:164px; /* left offset of submenus need to match (see below) */
+	padding:12px 3px 17px 5px;
+	background:#1e2b3d;
+}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {left:224px; top:-12px;}
+.sf-menu li li.sfHover li a {
+	display:block;
+	font-size:11px;
+	line-height:18px;
+	color:#25b2c9;
+	font-weight:700;
+	text-decoration:none;
+	text-transform:uppercase;
+	position:relative;
+	background:url(../images/submenu2-left.png) left 0 no-repeat;
+}
+.sf-menu li li.sfHover li a strong {display:inline-block; padding:0 9px; background:url(../images/submenu2-right.png) right 0 no-repeat;}
+.sf-menu li li.sfHover li a strong strong {padding:4px 0 6px 9px; width:137px; background:url(../images/submenu2-tail.png) 0 0 repeat-x; cursor:pointer;}
+.sf-menu li li.sfHover li a:hover {background-position:0 bottom;}
+.sf-menu li li.sfHover li a:hover strong {background-position:right bottom;}
+.sf-menu li li.sfHover li a:hover strong strong {background:url(../images/submenu2-tail.png) 0 bottom repeat-x;}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {outline:0;}
+Window size: x 
+Viewport size: x

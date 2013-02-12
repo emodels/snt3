@@ -1,2 +1,2 @@
-Cufon.replace('ul.sf-menu > li > a, .button, .link, ul.list2 li a strong, .link-1, .link2, .button-1', { fontFamily: 'Lato Black', hover:true });
-Cufon.replace('h2, h1, .block1', { fontFamily: 'Lato Black' })
+Cufon.replace('h2, h3, h4, h5, .sf-menu > li > a, .list-number, .list-letter, .year', { fontFamily: 'Lato Black', hover:true });
+Cufon.replace('.slider .controls .next, .slider .controls .prev, #form-newsletter .buttons a, .link-1, .topic, #contact-form .buttons a', { fontFamily: 'Lato bold', hover:true });
