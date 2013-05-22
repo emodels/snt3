@@ -104,7 +104,7 @@ h1 a {display:block; width:239px; height:92px; text-indent:-5000px; background:u
 
 
 /*********************************row-2*************************************/
-.row-2 {width:100%; height:336px; padding-top:7px; margin-top:0px; position:relative; z-index:1; background:url(../images/header-bg1.jpg) center 0 no-repeat;}
+.row-2 {width:100%; height:336px; padding-top:7px; margin-top:0px; position:relative; z-index:1; /*background:url(../images/header-bg1.jpg) center 0 no-repeat;*/}
 .slider-shadow {width:968px; height:347px; position:absolute; top:0; left:50%; margin-left:-484px; background:url(../images/slider-shadow.png) 0 0 no-repeat;}
 
 /*********************************row-3*************************************/

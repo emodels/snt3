@@ -39,8 +39,8 @@
             </ul>
             <nav>
                 <ul class="sf-menu">
-                    <li><a class="current" href="#"><strong><strong>Home</strong></strong></a></li>
-                    <li><a href="#"><strong><strong>IT Outsourcing</strong></strong></a></li>
+                    <li><a class="current" href="index.php"><strong><strong>Home</strong></strong></a></li>
+                    <li><a href="it-outsourcing"><strong><strong>IT Outsourcing</strong></strong></a></li>
                     <li><a href="#"><strong><strong>Services</strong></strong></a>
                     	<ul>
                             <li><a href="#"><strong><strong>Talent Acquisition</strong></strong></a></li>
@@ -55,7 +55,7 @@
                         </ul>
                     </li>
                     <li><a href="#"><strong><strong>about us</strong></strong></a></li>
-                    <li><a href="#"><strong><strong>contacts</strong></strong></a></li>	
+                    <li><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
                 </ul>
           </nav>
         </div>

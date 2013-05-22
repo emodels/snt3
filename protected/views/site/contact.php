@@ -1,81 +1,30 @@
-<?php
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
-?>
-
-<h1>Contact Us</h1>
-
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
-
-<div class="flash-success">
-	<?php echo Yii::app()->user->getFlash('contact'); ?>
-</div>
-
-<?php else: ?>
-
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'contact-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name'); ?>
-		<?php echo $form->error($model,'name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email'); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'subject'); ?>
-		<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'subject'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'body'); ?>
-		<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'body'); ?>
-	</div>
-
-	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="row">
-		<?php echo $form->labelEx($model,'verifyCode'); ?>
-		<div>
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model,'verifyCode'); ?>
-		</div>
-		<div class="hint">Please enter the letters as they are shown in the image above.
-		<br/>Letters are not case-sensitive.</div>
-		<?php echo $form->error($model,'verifyCode'); ?>
-	</div>
-	<?php endif; ?>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
-
-<?php endif; ?>
+<!--==============================content================================-->
+<section id="content">
+    <div class="padding-content">
+        <div class="main">
+            <div class="wrapper">
+                <article>
+                    <h2 class="prev-indent-bot">Contact Us</h2>
+                    <section class="padding-top1">
+                        <h4>SNT3 Consulting Head office (Australia - Melbourne)</h4>
+                        <p>
+                            <div class="fleft" style="width: 100px">Address: </div><div>Level 2, 710 Collins Street, Docklands VIC 3008, AUSTRALIA.</div>
+                            <div class="fleft" style="width: 100px">Mobile: </div><div>+61431 108 137 or +61425 732 711 or +61431 150 003</div>
+                            <div class="fleft" style="width: 100px">Office Phone: </div><div>+61 3 9097 1766</div>
+                            <div class="fleft" style="width: 100px">Email: </div><div><a href="mailto:info@snt3.com">info@snt3.com</a></div>
+                        </p>
+                    </section>
+                    <section class="padding-top">
+                        <h4>Colombo - Sri Lanka</h4>
+                        <p>
+                            <div class="fleft" style="width: 100px">Address: </div><div>60/2, Barnes Place, Colombo 7, Sri Lanka.</div>
+                            <div class="fleft" style="width: 100px">Phone: </div><div>+94 773 740 742</div>
+                            <div class="fleft" style="width: 100px">Email: </div><div><a href="mailto:info@snt3.com">info@snt3.com</a></div>
+                        </p>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==============================End content================================-->
