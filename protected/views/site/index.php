@@ -108,16 +108,8 @@
                         <h4 class="side">Solving business challenges with the right technology.</h4> 
                         <h2 class="prev-indent-bot"><strong>Our Process is, </strong></h2>
                         <h4 class="side"><strong>powerful, </strong>simple, and unique.</h4>
-                        <p class="p2">We would work with established business partners in sourcing technical experts, to ensure adherence to the primary goals and objectives...</p>
-                        <h2>Newsletter:</h2>
-                        <form id="form-newsletter">
-                            <fieldset>
-                                <label><input name="name1" value="Enter  your email here" onBlur="if(this.value=='') this.value='Enter  your email here'" onFocus="if(this.value =='Enter  your email here' ) this.value=''" /></label>
-                                <div class="buttons">
-                                    <a href="#" onClick="document.getElementById('form-newsletter').submit()">subscribe</a>
-                                </div>											
-                            </fieldset>           
-                        </form>
+                        <p class="p2">We would work with established business partners in sourcing technical experts, to ensure adherence to the primary goals and objectives.</p>
+                        <p class="p2">We are experienced in recruiting for overseas postings. We are also experienced in recruiting overseas for domestic postings.</p>
                     </div>
                 </article>
                 
@@ -136,8 +128,8 @@
                         <li><a href="#">Implementation</a></li>
                     </ul>
                     <h5 class="p0" style="padding-bottom: 15px">Call us for enquiry:</h5>
-                    <h4 style="padding-bottom: 10px;">+61 431 108 137</h4>
-                    <h4>+61 425 732 711 </h4>
+                    <h4 style="padding-bottom: 10px;">+61431 108 137</h4>
+                    <h4>+61425 732 711</h4>
                 </article>
                 <article class="col-3">
                     <h2 class="p2">Our work is dedicated to the prosperity of our clients!</h2>

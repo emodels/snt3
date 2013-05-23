@@ -30,7 +30,7 @@
 <header class="header">
     <div class="row-1">
     	<div class="main">
-       	  <h1><a class="logo" href="#">Guide marketing company</a></h1>
+       	  <h1><a class="logo" href="index.php">SNT3</a></h1>
             <ul class="list-services">
             	<li><a class="tooltip" title="Linkedin" href="#"><img src="images/pict-1.png" width="24" height="24" alt=""></a></li>
                 <li><a class="tooltip" title="Facebook" href="#"><img src="images/pict-2.png" width="24" height="24" alt=""></a></li>
@@ -43,18 +43,12 @@
                     <li><a href="it-outsourcing"><strong><strong>IT Outsourcing</strong></strong></a></li>
                     <li><a href="#"><strong><strong>Services</strong></strong></a>
                     	<ul>
-                            <li><a href="#"><strong><strong>Talent Acquisition</strong></strong></a></li>
-                            <li><a href="#"><strong><strong>Hosted Solutions</strong></strong></a></li>
-                            <li><a href="#"><strong><strong>Offshore Service Offerings</strong></strong></a>
-                            	<!--<ul>
-                                   <li><a href="#"><strong><strong>PR</strong></strong></a></li>
-                                   <li><a href="#"><strong><strong>Advertising</strong></strong></a></li>
-                                   <li><a href="#"><strong><strong>Brand Policy</strong></strong></a></li>
-                               </ul>-->
-                            </li>
+                            <li><a href="talent-acquisition"><strong><strong>Talent Acquisition</strong></strong></a></li>
+                            <li><a href="hosted-solutions"><strong><strong>Hosted Solutions</strong></strong></a></li>
+                            <li><a href="offshore-service-offering"><strong><strong>Offshore Service Offerings</strong></strong></a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><strong><strong>about us</strong></strong></a></li>
+                    <li><a href="about-us"><strong><strong>about us</strong></strong></a></li>
                     <li><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
                 </ul>
           </nav>
@@ -77,10 +71,10 @@
                 <a href="#" class="privacy">Privacy Policy</a>
             </div>
             <div class="address">
-            	50 Huntington Drive<br>Craigieburn, VIC 3064,<br>Australia.
+            	Level 2, 710 Collins Street<br>Docklands VIC 3008,<br>Australia.
             </div>
             <div class="contacts">
-            	E -mail: <a href="#" class="link color-3">info@snt3.com</a><br>Phone: +61431 108 137<br>Fax: 03 8339 4812
+            	E -mail: <a href="mailto:info@snt3.com" class="link color-3">info@snt3.com</a><br>Phone: +61431 108 137<br>Fax: +61 3 9097 1766
             </div>
             <div class="footer-link">
                 <a href="#" alt="" class="tooltip" title="LinkedIn"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>

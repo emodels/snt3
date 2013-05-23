@@ -30,7 +30,7 @@ a:hover {text-decoration:none;}
 
 .wrapper {width:100%; overflow:hidden;}
 .extra-wrap {overflow:hidden;}
-
+.justify { text-align: justify; }
 p {margin-bottom:18px;}
 .p0 {margin-bottom:4px;}
 .p1 {margin-bottom:8px;}
@@ -164,7 +164,7 @@ h6 {color:#ff0000;}
 
 .year {float:left; margin-right:5px; font-size:18px; line-height:22px; color:#1aa2b9;}
 
-.list-1 li {font-size:12px; line-height:26px; text-transform:uppercase; font-weight:bold;}
+.list-1 li {font-size:12px; line-height:26px; font-weight:bold;}
 .list-1 li a {display:inline-block; color:#ff0000; padding-left:11px; background:url(../images/marker-1.png) 0 -277px no-repeat;}
 .list-1 li a:hover {color:#a2a1a1; background-position:0 9px;}
 
@@ -194,14 +194,14 @@ dl dd {overflow:hidden;}
 dd span {float:left; width:92px;}
 
 /****************************footer************************/
-footer {width:100%; font-weight:700; padding:10px 0 20px;}
+footer {width:100%; font-weight:700; padding:10px 0 20px; border-top: solid 1px #e6e6e6; }
 
 .text-bot {float:left; width:152px; padding-left:38px; margin-right:89px;}
 .text-bot .privacy {display:inline-block; margin-top:-2px; color:#666; text-decoration:none;}
 .text-bot .privacy:hover {text-decoration:underline;}
 .text-bot .logo-bot {float:left; margin-right:2px; width:72px; height:46px; text-indent:-5000px; background:url(../images/logo-bot.png) 0 0 no-repeat;}
-.address {float:left; width:151px; padding-top:5px; margin-right:89px;}
-.contacts {float:left; width:188px; padding-top:5px; margin-right:20px;}
+.address {float:left; width:170px; padding-top:5px; margin-right:45px;}
+.contacts {float:right; width:188px; padding-top:5px; margin-right:10px;}
 .footer-link {float:left; width:220px; padding-top:10px; }
 
 /****************************layout************************/

@@ -6,6 +6,7 @@
                 <article>
                     <h2 class="prev-indent-bot">Contact Us</h2>
                     <section class="padding-top1">
+                        <img src="images/contact_us.png" align="left" style="padding: 0 50px 20px 0" />
                         <h4>SNT3 Consulting Head office (Australia - Melbourne)</h4>
                         <p>
                             <div class="fleft" style="width: 100px">Address: </div><div>Level 2, 710 Collins Street, Docklands VIC 3008, AUSTRALIA.</div>

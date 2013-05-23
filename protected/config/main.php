@@ -41,6 +41,10 @@ return array(
                         'caseSensitive'=>false,
 			'rules'=>array(
                                 'it-outsourcing' => array('site/Itoutsourcing', 'caseSensitive'=>false),
+                                'talent-acquisition' => array('site/TalentAcquisition', 'caseSensitive'=>false),
+                                'hosted-solutions' => array('site/HostedSolutions', 'caseSensitive'=>false),
+                                'offshore-service-offering' => array('site/OffshoreServiceOffering', 'caseSensitive'=>false),
+                                'about-us' => array('site/about', 'caseSensitive'=>false),
                                 'contact' => array('site/contact', 'caseSensitive'=>false),
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
