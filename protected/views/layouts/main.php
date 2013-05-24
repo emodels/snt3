@@ -68,7 +68,6 @@
                         <div class="padding-top1">&copy; 2011</div>
                     </div>
                 </div>
-                <a href="#" class="privacy">Privacy Policy</a>
             </div>
             <div class="address">
             	Level 2, 710 Collins Street<br>Docklands VIC 3008,<br>Australia.
