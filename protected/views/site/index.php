@@ -33,7 +33,7 @@
                             <div class="topic">IT Outsourcing</div>
                             <p class="color-1 p0">There are many reasons that companies outsource various ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="it-outsourcing" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -44,7 +44,7 @@
                             <div class="topic">Hosted Solutions</div>
                             <p class="color-1 p0">Every business has unique IT requirements, and that's why we ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="hosted-solutions" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -55,7 +55,7 @@
                             <div class="topic">Talent Acquisition</div>
                             <p class="color-1 p0">Talent acquisition is the process of finding and acquiring skilled ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="talent-acquisition" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -66,7 +66,7 @@
                             <div class="topic">Offshore Services</div>
                             <p class="color-1 p0">IT Offshore Services are those that are offered by companies in ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="offshore-service-offering" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -77,7 +77,7 @@
                             <div class="topic">Software Solutions</div>
                             <p class="color-1 p0">We provide software development, quality assurance, application ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="about-us" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -88,7 +88,7 @@
                             <div class="topic">Web Development</div>
                             <p class="color-1 p0">Stylish web Design using industry leading tools and technologies ...</p>
                             <div class="alignright">
-                                <a href="#" class="link-1">read more</a>
+                                <a href="about-us" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>
