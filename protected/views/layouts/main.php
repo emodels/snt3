@@ -39,17 +39,17 @@
             </ul>
             <nav>
                 <ul class="sf-menu">
-                    <li><a class="current" href="index.php"><strong><strong>Home</strong></strong></a></li>
-                    <li><a href="it-outsourcing"><strong><strong>IT Outsourcing</strong></strong></a></li>
-                    <li><a href="#"><strong><strong>Services</strong></strong></a>
+                    <li id="menu_home"><a href="index.php"><strong><strong>Home</strong></strong></a></li>
+                    <li id="menu_it_outsourcing"><a href="it-outsourcing"><strong><strong>IT Outsourcing</strong></strong></a></li>
+                    <li id="menu_Services"><a href="services"><strong><strong>Services</strong></strong></a>
                     	<ul>
                             <li><a href="talent-acquisition"><strong><strong>Talent Acquisition</strong></strong></a></li>
                             <li><a href="hosted-solutions"><strong><strong>Hosted Solutions</strong></strong></a></li>
                             <li><a href="offshore-service-offering"><strong><strong>Offshore Service Offerings</strong></strong></a></li>
                         </ul>
                     </li>
-                    <li><a href="about-us"><strong><strong>about us</strong></strong></a></li>
-                    <li><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
+                    <li id="about_us"><a href="about-us"><strong><strong>about us</strong></strong></a></li>
+                    <li id="contact"><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
                 </ul>
           </nav>
         </div>

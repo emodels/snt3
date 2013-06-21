@@ -34,6 +34,10 @@ class SiteController extends Controller {
         $this->render('it_outsourcing');
     }
 
+    public function actionServices() {
+        $this->render('services');
+    }
+
     public function actionTalentAcquisition() {
         $this->render('talent_acquisition');
     }

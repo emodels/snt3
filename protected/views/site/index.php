@@ -1,4 +1,13 @@
-    <div class="row-2" style="">
+<?php 
+Yii::app()->clientScript->registerScript("menu_highlight",
+   "$('.sf-menu li a').each(function(){
+       $(this).removeClass('current');
+    });
+    $('#menu_home a').addClass('current');"
+    , CClientScript::POS_END    
+);
+?>
+<div class="row-2" style="">
         <div class="slider-shadow"></div>
         <div class="main">
             <div class="slider">

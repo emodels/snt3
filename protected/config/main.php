@@ -41,6 +41,7 @@ return array(
                         'caseSensitive'=>false,
 			'rules'=>array(
                                 'it-outsourcing' => array('site/Itoutsourcing', 'caseSensitive'=>false),
+                                'services' => array('site/services', 'caseSensitive'=>false),
                                 'talent-acquisition' => array('site/TalentAcquisition', 'caseSensitive'=>false),
                                 'hosted-solutions' => array('site/HostedSolutions', 'caseSensitive'=>false),
                                 'offshore-service-offering' => array('site/OffshoreServiceOffering', 'caseSensitive'=>false),
