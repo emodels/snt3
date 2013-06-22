@@ -88,7 +88,7 @@
             	Level 2, 710 Collins Street<br>Docklands VIC 3008,<br>Australia.
             </div>
             <div class="contacts">
-            	E -mail: <a href="mailto:info@snt3.com" class="link color-3">info@snt3.com</a><br>Phone: +61431 108 137<br>Fax: +61 3 9097 1766
+            	E -mail: <a href="mailto:info@snt3.com" class="link color-3">info@snt3.com</a><br>Phone: +61431 108 137
             </div>
             <div class="footer-link">
                 <a href="#" alt="" class="tooltip" title="LinkedIn"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>

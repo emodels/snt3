@@ -1,9 +1,14 @@
 <?php 
+Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl.'/js/jquery.cycle.lite.js');
 Yii::app()->clientScript->registerScript("menu_highlight",
    "$('.sf-menu li a').each(function(){
        $(this).removeClass('current');
     });
-    $('#menu_home a').addClass('current');"
+    $('#menu_home a').addClass('current');
+    $('.slideshow').cycle({
+	fx: 'fade'
+    });    
+    "
     , CClientScript::POS_END    
 );
 ?>
@@ -108,22 +113,19 @@ Yii::app()->clientScript->registerScript("menu_highlight",
     </div>
 <!--==============================content================================-->
 <section id="content">
-    <div class="padding-content">
+    <div class="padding-content" style="padding-bottom: 0px">
         <div class="main">
             <div class="wrapper">
-                <article class="col-1">
-                    <div>
-                        <h2 class="prev-indent-bot"><strong>Our Mission is, </strong></h2>
-                        <h4 class="side">Solving business challenges with the right technology.</h4> 
-                        <h2 class="prev-indent-bot"><strong>Our Process is, </strong></h2>
-                        <h4 class="side"><strong>powerful, </strong>simple, and unique.</h4>
-                        <p class="p2">We would work with established business partners in sourcing technical experts, to ensure adherence to the primary goals and objectives.</p>
-                        <p class="p2">We are experienced in recruiting for overseas postings. We are also experienced in recruiting overseas for domestic postings.</p>
+                <article class="col-1" style="padding: 0 35px 0 0">
+                    <h2 class="prev-indent-bot" style="padding-bottom: 8px"><strong>Our Partners</strong></h2>
+                    <div class="slideshow">
+                        <?php foreach(glob('./images/partners/*.*') as $filename){ ?>
+                            <img src="<?php echo $filename; ?>" width="200" height="200" />
+                        <?php } ?>
                     </div>
                 </article>
-                
                 <article class="col-2">
-                    <h2 style="padding-bottom: 10px;">Technology</h2>
+                    <h2 style="padding-bottom: 20px;">Technology</h2>
                     <ul class="list-1 spacing-bot">
                         <li><a href="#">PHP / MySQL</a></li>
                         <li><a href="#">ASP.NET C# / VB.NET</a></li>
@@ -134,31 +136,18 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                         <li><a href="#">Microsoft SQL Server</a></li>
                         <li><a href="#">Data mining and migration</a></li>
                         <li><a href="#">Mobile App development</a></li>
-                        <li><a href="#">Implementation</a></li>
                     </ul>
                 </article>
                 <article class="col-3">
                     <h2 class="p2">Our work is dedicated to the prosperity of our clients!</h2>
-                    <p class="p2">We practice reusability, and our library of methods and components are an important part of our development framework. We are disciplined to best standards that are widely used in the IT industry. Our project model can be tailored to suit the requirements of each project and the users.</p>
-                    <div class="wrapper indent-bot">
+                    <p class="p2" style="padding-top: 10px">We practice reusability, and our library of methods and components are an important part of our development framework. We are disciplined to best standards that are widely used in the IT industry.</p>
+                    <div class="wrapper indent-bot" style="padding-top: 10px">
                         <figure class="img-indent1"><a class="lightbox-image" href="images/image-blank.png" data-gal="prettyPhoto[gallery1]"><img class="img-box" src="images/page1-img1.jpg" alt=""></a></figure>
                         <div class="extra-wrap">
                             <h6>We have many different tools<br> and methods for your busi-<br>ness developing.</h6>
                             We also understand the importance of proper documentation.
                         </div>
                     </div>
-                    <div class="wrapper p1">
-                        <figure class="img-indent1"><a class="lightbox-image" href="images/image-blank.png" data-gal="prettyPhoto[gallery2]"><img class="img-box" src="images/page1-img2.jpg" alt=""></a></figure>
-                        <div class="extra-wrap">
-                            <h6>Our professional experts are always ready to give you full and true information about the fran-<br>chise business.</h6>
-                            Technically proficient staff plays a key role in helping define business requirements.
-                        </div>
-                    </div>
-                    <!--<div class="alignright">
-                        <div class="padding-right">
-                            <a href="#" class="link-1">read more</a>
-                        </div>
-                    </div>-->
                 </article>
             </div>
         </div>

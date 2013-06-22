@@ -26,7 +26,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                         <p class="justify">SNT3  Consulting’s  technical  expertise  and  mature  software  development  lifecycle  are  optimized  for  rapid  application development resulting in fast turn‐around times. The team has experience in the latest technologies and understands the business and the operational reality of developing software products and services solutions that ensure customer success.</p>
                         <h5 class="indent-bot">What’s included in SNT3 Consulting delivery services?</h5>
                         <p class="justify">As a company we focus on building business by building relationships. We view ourselves as thought leaders, innovators, and problem solvers. We promote that our size and broad range of offerings allow us to delivery comprehensive solutions to our clients and we focus on similar principles of excellent customer service and stress trust and integrity as a key to our business.</p>
-                        <h5 class="indent-bot">Our Approach</h5>
+                        <!--<h5 class="indent-bot">Our Approach</h5>
                         <p class="justify">There are nine disciplines within our approach to deliver successful business outcomes.</p>
                         <p><img src="images/our_approach.png"/></p>
                         <p>For each step, we have identified the activities and deliverables that will be delivered as part of Phase 1. Highlights of our approach include the following:</p>
@@ -101,9 +101,9 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                         <p class="justify">The objective of the Deliver step is to prepare for and execute system and business cutover to the new planning solution and processes. This involves final user acceptance testing (UAT), user training, and the formation or enhancement of a support organization to manage the environment after cutover. Upon successful cutover, the business is ready to operate on the new production system.</p>
                         <h5 class="indent-bot">Operate</h5>
                         <img class="clear indent-bot" src="images/operate_bar.png" />
-                        <p class="justify">The objective of the Operate step is for the business and support organizations to manage, control, and operate processes and applications. Performance is evaluated continuously, and recommendations for improvement are documented. The project is evaluated against the vision and business value, and a postmortem is conducted to document lessons learned before the project is closed.</p>
+                        <p class="justify">The objective of the Operate step is for the business and support organizations to manage, control, and operate processes and applications. Performance is evaluated continuously, and recommendations for improvement are documented. The project is evaluated against the vision and business value, and a postmortem is conducted to document lessons learned before the project is closed.</p>-->
                     </section>
-                    <section>
+                    <!--<section>
                         <h5 class="padding-top1 indent-bot">Project management</h5>
                         <img src="images/project_management.jpg" align="left" style="padding: 0 20px 10px 0" />
                         <p class="justify">Our project management methodology is a collection of our combined knowledge used in conjunction with our professional experience and judgment to serve our clients in achieving their project and business goals. We have developed an approach to project management specifically tailored toward integrating the various people, process, and technology issues found in large, complex projects.</p>
@@ -146,7 +146,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                             <li><a href='#'>Client develops during the project and provides implementation support upon system go-live. Project team provides remote support as needed.</a></li>
                             <li><a href='#'>Client can engage our Application Management Services organization to provide support for a contracted period of time post deployment. Such services can include incident/break-fix support, enhancements, maintenance, emergency releases, etc. In this option, we will work with you to tailor our services to effectively and efficiently meet your needs and requirements.</a></li>
                         </ul>
-                    </section>
+                    </section>-->
                 </article>
             </div>
         </div>
