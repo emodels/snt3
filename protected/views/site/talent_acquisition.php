@@ -139,7 +139,7 @@ Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').e
                     <section class="padding-top1">
                         <div class="form">
                             <?php
-                            $form = $this->beginWidget('CActiveForm', array(
+                            $form_employer = $this->beginWidget('CActiveForm', array(
                                 'id' => 'employer-form',
                                 'htmlOptions' => array('autocomplete' => 'true', 'enctype' => 'multipart/form-data'),
                                 'enableClientValidation' => true,
@@ -154,59 +154,59 @@ Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').e
                                 <div class="column" style="width:408px; color:#135B84;">
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Organisation', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'organisation'); ?><?php echo $form->error($employer, 'organisation'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'organisation'); ?><?php echo $form_employer->error($employer, 'organisation'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Name', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'name'); ?><?php echo $form->error($employer, 'name'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'name'); ?><?php echo $form_employer->error($employer, 'name'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Your job title', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'job_title'); ?><?php echo $form->error($employer, 'job_title'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'job_title'); ?><?php echo $form_employer->error($employer, 'job_title'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Telephone', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'telephone'); ?><?php echo $form->error($employer, 'telephone'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'telephone'); ?><?php echo $form_employer->error($employer, 'telephone'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Email', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'email'); ?><?php echo $form->error($employer, 'email'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'email'); ?><?php echo $form_employer->error($employer, 'email'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Position recruiting', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'position_recruiting'); ?><?php echo $form->error($employer, 'position_recruiting'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'position_recruiting'); ?><?php echo $form_employer->error($employer, 'position_recruiting'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
-                                        <div class="column" style="width: 100px"><?php echo CHtml::label('Salary range?', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'salary_range'); ?><?php echo $form->error($employer, 'salary_range'); ?></div>
+                                        <div class="column" style="width: 100px"><?php echo CHtml::label('Salary range', '') ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'salary_range'); ?><?php echo $form_employer->error($employer, 'salary_range'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 100px"><?php echo CHtml::label('Vacancy location', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textField($employer, 'location_vacancy_based'); ?><?php echo $form->error($employer, 'location_vacancy_based'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textField($employer, 'location_vacancy_based'); ?><?php echo $form_employer->error($employer, 'location_vacancy_based'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                 </div>
                                 <div class="column">
                                     <div class="row">
                                         <div class="column" style="width: 200px"><?php echo CHtml::label('State', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->dropdownList($employer, 'state', array('NSW' => 'New South Wales', 'QLD' => 'Queensland', 'SA'=> 'South Australia', 'TAS' => 'Tasmania', 'VIC' => 'Victoria', 'WA' =>'Western Australia', 'NA' =>'Northern Territory', 'ACT' => 'Australian Capital Territory'), array('empty' => 'Select...')) ?><?php echo $form->error($employer, 'state'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->dropdownList($employer, 'state', array('NSW' => 'New South Wales', 'QLD' => 'Queensland', 'SA'=> 'South Australia', 'TAS' => 'Tasmania', 'VIC' => 'Victoria', 'WA' =>'Western Australia', 'NA' =>'Northern Territory', 'ACT' => 'Australian Capital Territory'), array('empty' => 'Select...')) ?><?php echo $form_employer->error($employer, 'state'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 200px"><?php echo CHtml::label('Type of employment', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->dropdownList($employer, 'type_employment', array('Contract' => 'Contract', 'Permanent' => 'Permanent', 'Temporary'=> 'Temporary'), array('empty' => 'Select...')) ?><?php echo $form->error($employer, 'type_employment'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->dropdownList($employer, 'type_employment', array('Contract' => 'Contract', 'Permanent' => 'Permanent', 'Temporary'=> 'Temporary'), array('empty' => 'Select...')) ?><?php echo $form_employer->error($employer, 'type_employment'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 200px"><?php echo CHtml::label('Expertise Category', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->dropdownList($employer, 'expertise_category', 
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->dropdownList($employer, 'expertise_category', 
                                                 array(
                                                     'Accountancy & Finance' => 'Accountancy & Finance', 
                                                     'Architecture' => 'Architecture',
@@ -237,17 +237,17 @@ Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').e
                                                     'Trades & Labour' => 'Trades & Labour'
                                                 ), 
                                                 array('empty' => 'Select...')) ?>
-                                                    <?php echo $form->error($employer, 'expertise_category'); ?></div>
+                                                    <?php echo $form_employer->error($employer, 'expertise_category'); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 200px"><?php echo CHtml::label('Attach job specification', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->fileField($employer,'job_specification') ?><?php echo $form->error($employer, 'job_specification'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->fileField($employer,'job_specification') ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">
                                         <div class="column" style="width: 200px"><?php echo CHtml::label('Further Information', '') ?></div>
-                                        <div class="column" style="padding-bottom: 10px"><?php echo $form->textArea($employer, 'further_information', array('maxlength' => 300, 'rows' => 6, 'cols' => 50)); ?><?php echo $form->error($employer, 'further_information'); ?></div>
+                                        <div class="column" style="padding-bottom: 10px"><?php echo $form_employer->textArea($employer, 'further_information', array('maxlength' => 300, 'rows' => 6, 'cols' => 50)); ?></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="row">

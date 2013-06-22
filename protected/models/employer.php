@@ -26,10 +26,11 @@ class Employer extends CFormModel
 	{
 		return array(
 			// name, email, subject and body are required
-			array('organisation, name, job_title, telephone, email, position_recruiting, salary_range, location_vacancy_based, state, type_employment, expertise_category', 'required'),
+			array('organisation, name, job_title, telephone, email, position_recruiting, salary_range, location_vacancy_based, state, type_employment, expertise_category, further_information', 'required'),
 			// email has to be a valid email address
 			array('email', 'email'),
-		);
+                        array('job_specification', 'file', 'allowEmpty'=>true)		
+                );
 	}
 
 	/**

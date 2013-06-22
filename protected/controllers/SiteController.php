@@ -87,6 +87,63 @@ class SiteController extends Controller {
             $this->redirect(array('/talent-acquisition'));
         }
 
+        /**
+         ******************( Employer Section )**************************************
+         */
+        if (isset($_POST['Employer'])) {
+
+            $employer->attributes = $_POST['Employer'];
+
+            if ($employer->further_information == "") {
+                $employer->further_information = "n/a";
+            }
+            
+            //--------Save uploaded file to folder space-----------------------
+            $employer->job_specification = CUploadedFile::getInstance($employer, 'job_specification');
+            
+            if (isset($employer->job_specification)) {
+                $employer->job_specification->saveAs(Yii::getPathOfAlias('webroot.uploads.job_specification') . DIRECTORY_SEPARATOR . $employer->job_specification->name, true);
+                $employer->job_specification = $employer->job_specification->name;
+            }
+            //-----------------------------------------------------------------
+
+            $message = $this->renderPartial('//email/template/employer', array('model'=>$employer), true);
+
+            if (isset($employer) && isset($message) && $message != "") {
+                $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
+                $mailer->Host = Yii::app()->params['SMTP_Host'];
+                $mailer->Port = Yii::app()->params['SMTP_Port'];
+                if (Yii::app()->params['SMTPSecure'] == TRUE) {
+                    $mailer->SMTPSecure = 'ssl';
+                }
+                $mailer->IsSMTP();
+                $mailer->SMTPAuth = true;
+                $mailer->Username = Yii::app()->params['SMTP_Username'];
+                $mailer->Password = Yii::app()->params['SMTP_password'];
+                $mailer->From = Yii::app()->params['SMTP_Username'];
+                $mailer->AddReplyTo(Yii::app()->params['SMTP_Username']);
+                $mailer->AddAddress(Yii::app()->params['adminEmail']);
+                $mailer->FromName = 'SNT3';
+                $mailer->CharSet = 'UTF-8';
+                $mailer->Subject = 'Employer - submit vacancy';
+                $mailer->IsHTML();
+                $mailer->Body = $message;
+                if ($employer->job_specification != "") {
+                    $mailer->AddAttachment(Yii::getPathOfAlias('webroot.uploads.job_specification') . '/' . $employer->job_specification);
+                }
+                $mailer->SMTPDebug = Yii::app()->params['SMTPDebug'];
+
+                try {
+                    $mailer->Send();
+                } catch (Exception $ex) {
+                    echo $ex->getMessage();
+                }
+            }
+
+            Yii::app()->user->setFlash('success', 'Your Information Submitted');
+            $this->redirect(array('/talent-acquisition'));
+        }
+        
         $this->render('talent_acquisition', array('model' => $model, 'employer'=> $employer));
     }
 
