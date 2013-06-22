@@ -39,7 +39,55 @@ class SiteController extends Controller {
     }
 
     public function actionTalentAcquisition() {
-        $this->render('talent_acquisition');
+        $model = new Employee();
+        $employer = new Employer();
+
+        if (isset($_POST['Employee'])) {
+
+            $model->attributes = $_POST['Employee'];
+
+            //--------Save uploaded file to folder space-----------------------
+            $model->cv = CUploadedFile::getInstance($model, 'cv');
+            $model->cv->saveAs(Yii::getPathOfAlias('webroot.uploads.cv') . DIRECTORY_SEPARATOR . $model->cv->name, true);
+            $model->cv = $model->cv->name;
+            //-----------------------------------------------------------------
+
+            $message = $this->renderPartial('//email/template/employee', array('model'=>$model), true);
+
+            if (isset($model) && isset($message) && $message != "") {
+                $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
+                $mailer->Host = Yii::app()->params['SMTP_Host'];
+                $mailer->Port = Yii::app()->params['SMTP_Port'];
+                if (Yii::app()->params['SMTPSecure'] == TRUE) {
+                    $mailer->SMTPSecure = 'ssl';
+                }
+                $mailer->IsSMTP();
+                $mailer->SMTPAuth = true;
+                $mailer->Username = Yii::app()->params['SMTP_Username'];
+                $mailer->Password = Yii::app()->params['SMTP_password'];
+                $mailer->From = Yii::app()->params['SMTP_Username'];
+                $mailer->AddReplyTo(Yii::app()->params['SMTP_Username']);
+                $mailer->AddAddress(Yii::app()->params['adminEmail']);
+                $mailer->FromName = 'SNT3';
+                $mailer->CharSet = 'UTF-8';
+                $mailer->Subject = 'Employee CV Uploaded';
+                $mailer->IsHTML();
+                $mailer->Body = $message;
+                $mailer->AddAttachment(Yii::getPathOfAlias('webroot.uploads.cv') . '/' . $model->cv);
+                $mailer->SMTPDebug = Yii::app()->params['SMTPDebug'];
+
+                try {
+                    $mailer->Send();
+                } catch (Exception $ex) {
+                    echo $ex->getMessage();
+                }
+            }
+
+            Yii::app()->user->setFlash('success', 'Your Information Submitted');
+            $this->redirect(array('/talent-acquisition'));
+        }
+
+        $this->render('talent_acquisition', array('model' => $model, 'employer'=> $employer));
     }
 
     public function actionHostedSolutions() {

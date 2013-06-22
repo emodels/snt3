@@ -87,7 +87,12 @@ return array(
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
-		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'danesh.manjula@snt3.com',
+                'SMTP_Host'=>'smtp.gmail.com',
+                'SMTP_Port'=>'465',
+                'SMTP_Username'=>'danesh.manjula@snt3.com',
+                'SMTP_password'=>'Danesh@123',
+                'SMTPSecure'=>TRUE,
+                'SMTPDebug'=>FALSE
 	),
 );

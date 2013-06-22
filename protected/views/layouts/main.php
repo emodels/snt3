@@ -27,6 +27,21 @@
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
+<?php
+    $flashMessages = Yii::app()->user->getFlashes();
+    if ($flashMessages) {
+        echo '<ul class="flashes" style="list-style-type:none; margin: 0px; padding: 0px">';
+        foreach($flashMessages as $key => $message) {
+            echo '<li><div class="flash-' . $key . '">' . $message . "</div></li>\n";
+        }
+        echo '</ul>';
+        Yii::app()->clientScript->registerScript(
+        'myHideEffect',
+        '$(".flashes").animate({opacity: 1.0}, 3000).fadeOut("slow");',
+        CClientScript::POS_READY
+        );            
+    }
+?>
 <header class="header">
     <div class="row-1">
     	<div class="main">
@@ -65,7 +80,7 @@
                 <div class="wrapper">
                     <a href="#" class="logo-bot">Guide</a>
                     <div class="extra-wrap">
-                        <div class="padding-top1">&copy; 2011</div>
+                        <div class="padding-top1">&copy; 2013</div>
                     </div>
                 </div>
             </div>

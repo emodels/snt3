@@ -130,15 +130,12 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                         <li><a href="#">Ajax / CSS / XML / XSLT</a></li>
                         <li><a href="#">.NET framework</a></li>
                         <li><a href="#">Yii framework</a></li>
-                        <li><a href="#">JQuery and client-side scripting</a></li>
+                        <li><a href="#">JQuery and client scripting</a></li>
                         <li><a href="#">Microsoft SQL Server</a></li>
                         <li><a href="#">Data mining and migration</a></li>
-                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Mobile App development</a></li>
                         <li><a href="#">Implementation</a></li>
                     </ul>
-                    <h5 class="p0" style="padding-bottom: 15px">Call us for enquiry:</h5>
-                    <h4 style="padding-bottom: 10px;">+61431 108 137</h4>
-                    <h4>+61425 732 711</h4>
                 </article>
                 <article class="col-3">
                     <h2 class="p2">Our work is dedicated to the prosperity of our clients!</h2>
