@@ -88,10 +88,13 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		'adminEmail'=>'danesh.manjula@snt3.com',
-                'SMTP_Host'=>'smtp.gmail.com',
+		'CCEmail_1'=>'sanjika.abeyratna@snt3.com',
+		'CCEmail_2'=>'theekshana.somarathne@snt3.com',
+		'CCEmail_3'=>'navin.desilva@snt3.com',
+                'SMTP_Host'=>'just110.justhost.com',
                 'SMTP_Port'=>'465',
-                'SMTP_Username'=>'danesh.manjula@snt3.com',
-                'SMTP_password'=>'Danesh@123',
+                'SMTP_Username'=>'jobs@snt3.com',
+                'SMTP_password'=>'jobs@123',
                 'SMTPSecure'=>TRUE,
                 'SMTPDebug'=>FALSE
 	),
