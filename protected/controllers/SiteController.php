@@ -68,9 +68,9 @@ class SiteController extends Controller {
                 $mailer->From = Yii::app()->params['SMTP_Username'];
                 $mailer->AddReplyTo(Yii::app()->params['SMTP_Username']);
                 $mailer->AddAddress(Yii::app()->params['adminEmail']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_1']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_2']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_3']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_1']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_2']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_3']);
                 $mailer->FromName = 'SNT3';
                 $mailer->CharSet = 'UTF-8';
                 $mailer->Subject = 'Employee CV Uploaded';
@@ -126,9 +126,9 @@ class SiteController extends Controller {
                 $mailer->From = Yii::app()->params['SMTP_Username'];
                 $mailer->AddReplyTo(Yii::app()->params['SMTP_Username']);
                 $mailer->AddAddress(Yii::app()->params['adminEmail']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_1']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_2']);
-                $mailer->AddCC(Yii::app()->params['CCEmail_3']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_1']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_2']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_3']);
                 $mailer->FromName = 'SNT3';
                 $mailer->CharSet = 'UTF-8';
                 $mailer->Subject = 'Employer - submit vacancy';
