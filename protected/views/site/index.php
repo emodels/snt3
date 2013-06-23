@@ -127,15 +127,15 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                 <article class="col-2">
                     <h2 style="padding-bottom: 20px;">Technology</h2>
                     <ul class="list-1 spacing-bot">
-                        <li><a href="#">PHP / MySQL</a></li>
-                        <li><a href="#">ASP.NET C# / VB.NET</a></li>
-                        <li><a href="#">Ajax / CSS / XML / XSLT</a></li>
-                        <li><a href="#">.NET framework</a></li>
-                        <li><a href="#">Yii framework</a></li>
-                        <li><a href="#">JQuery and client scripting</a></li>
-                        <li><a href="#">Microsoft SQL Server</a></li>
-                        <li><a href="#">Data mining and migration</a></li>
-                        <li><a href="#">Mobile App development</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">PHP / MySQL</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">ASP.NET C# / VB.NET</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Ajax / CSS / XML / XSLT</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">.NET framework</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Yii framework</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">JQuery and client scripting</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Microsoft SQL Server</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Data mining and migration</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Mobile App development</a></li>
                     </ul>
                 </article>
                 <article class="col-3">
