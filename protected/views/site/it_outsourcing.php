@@ -8,9 +8,9 @@ Yii::app()->clientScript->registerScript("menu_highlight",
 );
 ?>
 <style type="text/css">
-    .white_font_16{ color: white; font-weight: bold; font-size: 17px; position: absolute; }
-    .white_font_14{ color: white; font-weight: bold; font-size: 15px; position: absolute; }
-    .blue_font_15{ color: #1C66AE; font-weight: normal; font-size: 16px; position: absolute; }
+    .white_font_16{ color: white; position: absolute; }
+    .white_font_14{ color: white; position: absolute; }
+    .blue_font_15{ position: absolute; }
 </style>
 <!--==============================content================================-->
 <section id="content">
@@ -34,7 +34,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                             <div class="white_font_16" style="top: 72px; left: 840px">Operate</div>
                         </section>
                         <section>
-                            <div class="blue_font_15" style="top: 105px; left: 125px; width: 282px">Selected resources from offshore are added to the on-site project team to facilitate seamless coordination.</div>
+                            <div class="blue_font_15" style="top: 105px; left: 125px; width: 262px;">Selected resources from offshore are added to the on-site project team to facilitate seamless coordination.</div>
                             <div class="blue_font_15" style="top: 105px; left: 400px; width: 370px">On-site leads will track and coordinate work done by offshore team members via regularly scheduled conference calls, deliverable reviews, and daily progress metrics.</div>
                             <div class="blue_font_15" style="top: 105px; left: 782px; width: 170px">Coordination with offshore maintenance and stabilization team</div>
                         </section>

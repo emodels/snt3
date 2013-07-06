@@ -8,7 +8,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
 );
 ?>
 <!--==============================content================================-->
-<section id="content">
+<section id="content" style="padding-bottom: 25px">
     <div class="padding-content">
         <div class="main">
             <div class="wrapper">

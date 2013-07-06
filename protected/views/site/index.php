@@ -117,11 +117,15 @@ Yii::app()->clientScript->registerScript("menu_highlight",
         <div class="main">
             <div class="wrapper">
                 <article class="col-1" style="padding: 0 35px 0 0">
-                    <h2 class="prev-indent-bot" style="padding-bottom: 8px"><strong>Our Partners</strong></h2>
+                    <h2 class="prev-indent-bot" style="padding-bottom: 3px"><strong>Our Clients</strong></h2>
                     <div class="slideshow">
                         <?php foreach(glob('./images/partners/*.*') as $filename){ ?>
-                            <img src="<?php echo $filename; ?>" width="200" height="200" />
+                            <img src="<?php echo $filename; ?>" width="110" height="110" />
                         <?php } ?>
+                    </div>
+                    <div>
+                        <h2 class="prev-indent-bot"><strong>Our Mission</strong></h2>
+                        <p style="text-align: justify">Solving business challenges with the right technology.</p> 
                     </div>
                 </article>
                 <article class="col-2">
