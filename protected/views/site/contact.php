@@ -76,27 +76,27 @@ div.form input[type='text'] { width: 170px; }
                                 </div>
                                 <div class="row" style="padding-top: 20px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Job Title</div>
-                                    <div class="column"><?php echo $form->textField($model, 'job_title'); ?><?php echo $form->error($model, 'job_title'); ?></div>
+                                    <div class="column"><?php echo $form->textField($model, 'job_title'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Company Name</div>
-                                    <div class="column"><?php echo $form->textField($model, 'company'); ?><?php echo $form->error($model, 'company'); ?></div>
+                                    <div class="column"><?php echo $form->textField($model, 'company'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 30px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Best Time to Call</div>
-                                    <div class="column"><?php echo $form->radioButtonList($model, 'best_time_to_call', array('Morning' => 'Morning', 'Afternoon' => 'Afternoon'), array('separator'=>'')); ?><?php echo $form->error($model, 'best_time_to_call'); ?></div>
+                                    <div class="column"><?php echo $form->radioButtonList($model, 'best_time_to_call', array('Morning' => 'Morning', 'Afternoon' => 'Afternoon'), array('separator'=>'')); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Phone Number</div>
-                                    <div class="column"><?php echo $form->textField($model, 'phone'); ?><?php echo $form->error($model, 'phone'); ?></div>
+                                    <div class="column"><?php echo $form->textField($model, 'phone'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Mobile Number</div>
-                                    <div class="column"><?php echo $form->textField($model, 'mobile'); ?><?php echo $form->error($model, 'mobile'); ?></div>
+                                    <div class="column"><?php echo $form->textField($model, 'mobile'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
@@ -106,12 +106,12 @@ div.form input[type='text'] { width: 170px; }
                                 </div>
                                 <div class="row" style="padding-top: 40px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Nature of your message:</div>
-                                    <div class="column"><?php echo $form->radioButtonList($model, 'nature_of_message', array('Consulting Services' => 'Consulting Services', 'Delivery Services' => 'Delivery Services'), array('separator'=>'')); ?><?php echo $form->error($model, 'nature_of_message'); ?></div>
+                                    <div class="column"><?php echo $form->radioButtonList($model, 'nature_of_message', array('Consulting Services' => 'Consulting Services', 'Delivery Services' => 'Delivery Services'), array('separator'=>'')); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
                                     <div class="column" style="width: 150px; padding-left: 16px">Subject</div>
-                                    <div class="column"><?php echo $form->textField($model, 'subject'); ?><?php echo $form->error($model, 'subject'); ?></div>
+                                    <div class="column"><?php echo $form->textField($model, 'subject'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="row" style="padding-top: 20px">
