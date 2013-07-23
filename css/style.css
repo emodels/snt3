@@ -162,8 +162,8 @@ h6 {color:#ff0000;}
 .year {float:left; margin-right:5px; font-size:18px; line-height:22px; color:#1aa2b9;}
 
 .list-1 li {font-size:12px; line-height:26px; font-weight:bold;}
-.list-1 li a {display:inline-block; color:#ff0000; padding-left:11px; background:url(../images/marker-1.png) 0 -277px no-repeat;}
-.list-1 li a:hover {color:#a2a1a1; background-position:0 9px;}
+.list-1 li a {display:inline-block; color:#666; padding-left:11px; background:url(../images/marker-1.png) 0 -277px no-repeat;}
+.list-1 li a:hover {color:black; background-position:0 9px; margin-left: 10px;}
 
 .list-2 li {margin-bottom:20px;}
 .list-2 li a {display:inline-block; color:#a2a1a1; padding-left:9px; background:url(../images/marker-1.png) 0 -280px no-repeat;}
@@ -422,4 +422,4 @@ background-image: radial-gradient(circle closest-corner at center bottom, #ABBEB
 #service_image img{ float: right; box-shadow: 5px 5px 5px #888888; margin: 10px 10px 0 0; border-radius: 10px; }
 
 .slideshow { margin: auto; padding: 0px; height: 160px; }
-.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; border-radius: 5px; }
+.slideshow img { padding: 0px; border: 1px solid #ccc; background-color: #eee; border-radius: 5px; }

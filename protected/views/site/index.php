@@ -120,7 +120,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                     <h2 class="prev-indent-bot" style="padding-bottom: 3px"><strong>Our Clients</strong></h2>
                     <div class="slideshow">
                         <?php foreach(glob('./images/partners/*.*') as $filename){ ?>
-                            <img src="<?php echo $filename; ?>" width="110" height="110" />
+                            <img src="<?php echo $filename; ?>" width="125" height="125" />
                         <?php } ?>
                     </div>
                     <div>
@@ -131,15 +131,15 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                 <article class="col-2">
                     <h2 style="padding-bottom: 20px;">Technology</h2>
                     <ul class="list-1 spacing-bot">
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">PHP / MySQL</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">ASP.NET C# / VB.NET</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">Ajax / CSS / XML / XSLT</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">.NET framework</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">Yii framework</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">JQuery and client scripting</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">Microsoft SQL Server</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">Data mining and migration</a></li>
-                        <li><a href="#" style="cursor: default" onclick="js:return false;">Mobile App development</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Test Automation</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Test Data Management</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Hosted Web solutions</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Customized App Development</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">IT Security</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Data Management</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Data Governance</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Data Migration</a></li>
+                        <li><a href="#" style="cursor: default" onclick="js:return false;">Meta Data Management</a></li>
                     </ul>
                 </article>
                 <article class="col-3">

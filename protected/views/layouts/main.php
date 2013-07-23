@@ -83,12 +83,13 @@
                         <div class="padding-top1">&copy; 2013</div>
                     </div>
                 </div>
+                <div><a href="http://www.snt3.com" target="_blank" style="color: #483A59">Design by SNT3</a></div>
             </div>
             <div class="address">
             	Level 2, 710 Collins Street<br>Docklands VIC 3008,<br>Australia.
             </div>
             <div class="contacts">
-            	E -mail: <a href="mailto:info@snt3.com" class="link color-2">info@snt3.com</a><br>Phone: +61431 108 137
+                E -mail: <a href="mailto:info@snt3.com" class="link color-2">info@snt3.com</a><br>Phone: +61431 108 137<br/><span style="padding-left: 47px">+61431 150 003</span><br/><span style="padding-left: 47px">+61425 732 711</span>
             </div>
             <div class="footer-link">
                 <a href="#" alt="" class="tooltip" title="LinkedIn"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>
