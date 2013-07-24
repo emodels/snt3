@@ -165,6 +165,9 @@ class SiteController extends Controller {
         $this->render('about');
     }
 
+    public function actionTeam() {
+        $this->render('team');
+    }
     /**
      * This is the action to handle external exceptions.
      */

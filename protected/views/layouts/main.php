@@ -61,7 +61,7 @@
                         </ul>
                     </li>
                     <li id="about_us"><a href="about-us"><strong><strong>about us</strong></strong></a></li>
-                    <li id="about_us"><a href="about-us"><strong><strong>Leadership Team</strong></strong></a></li>
+                    <li id="team"><a href="team"><strong><strong>Leadership Team</strong></strong></a></li>
                     <li id="contact"><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
                 </ul>
           </nav>

@@ -129,7 +129,7 @@ div.form input[type='text'] { width: 170px; }
                         </div>
                         <?php $this->endWidget(); ?>
                     </div>
-                    <div class="column" style="padding-left: 45px">
+                    <div class="column" style="width: 500px; padding-left: 45px">
                         <h4 style="padding-bottom: 20px">Our Location</h4>
                         <a href="http://goo.gl/maps/8RKaQ" target="_blank"><img src="images/maps.jpg" style="border: solid 1px silver; border-radius: 5px; box-shadow: 5px 5px 5px #888888;"/></a>
                     </div>

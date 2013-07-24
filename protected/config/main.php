@@ -40,6 +40,7 @@ return array(
                         'showScriptName'=>false,
                         'caseSensitive'=>false,
 			'rules'=>array(
+                                'team' => array('site/Team', 'caseSensitive'=>false),
                                 'it-outsourcing' => array('site/Itoutsourcing', 'caseSensitive'=>false),
                                 'services' => array('site/services', 'caseSensitive'=>false),
                                 'talent-acquisition' => array('site/TalentAcquisition', 'caseSensitive'=>false),
