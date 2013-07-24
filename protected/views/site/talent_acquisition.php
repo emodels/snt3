@@ -13,7 +13,14 @@ Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').e
         <div class="main">
             <div class="wrapper">
                 <article>
-                    <h2 class="prev-indent-bot">Global Talent Acquisition</h2>
+                    <div class="row">
+                        <div class="column"><h2 class="prev-indent-bot">Global Talent Acquisition</h2></div>
+                        <div style="float: right; padding: 8px 137px 0 0">
+                            <a href="offshore-service-offering" style="font-size: 18px; color: #666"><b>Offshore Service Offerings</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                            <a href="hosted-solutions" style="font-size: 18px; color: #666"><b>Hosted Solutions</b></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                     <section class="padding-top1">
                         <p><img src="images/talent_acqua_1.jpg" align="left" style="padding: 0 20px 20px 0"/>When there is insufficient talent available locally, it is necessary to go off-shore. The importance of human resource planning to the success of any business enterprise is well recognized. Equally accepted is the fact that certain skills do not exist in sufficient numbers today and can be hard to find. The need to recruit offshore is immediately apparent.</p>
                         <p class="justify">This can bring its own complications, and Clients must employ a robust and thorough process not only to hire the best from around the world, but also to retain them.</p>

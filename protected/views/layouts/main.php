@@ -47,10 +47,7 @@
     	<div class="main">
        	  <h1><a class="logo" href="index.php">SNT3</a></h1>
             <ul class="list-services">
-            	<li><a class="tooltip" title="Linkedin" href="#"><img src="images/pict-1.png" width="24" height="24" alt=""></a></li>
-                <li><a class="tooltip" title="Facebook" href="#"><img src="images/pict-2.png" width="24" height="24" alt=""></a></li>
-                <li><a class="tooltip" title="Twitter" href="#"><img src="images/pict-3.png" width="24" height="24" alt=""></a></li>
-                <li><a class="tooltip" title="Technorati" href="#"><img src="images/pict-4.png" width="24" height="24" alt=""></a></li>
+                <li style="padding-right: 7px"><a class="tooltip" title="Linkedin" href="http://www.linkedin.com/company/snt3-consulting?trk=top_nav_home" target="_blank"><img src="images/linkedin_button.png" style="width: 90px" alt=""></a></li>
             </ul>
             <nav>
                 <ul class="sf-menu">
@@ -64,6 +61,7 @@
                         </ul>
                     </li>
                     <li id="about_us"><a href="about-us"><strong><strong>about us</strong></strong></a></li>
+                    <li id="about_us"><a href="about-us"><strong><strong>Leadership Team</strong></strong></a></li>
                     <li id="contact"><a href="contact"><strong><strong>contacts</strong></strong></a></li>	
                 </ul>
           </nav>
@@ -91,11 +89,8 @@
             <div class="contacts">
                 E -mail: <a href="mailto:info@snt3.com" class="link color-2">info@snt3.com</a><br>Phone: +61431 108 137<br/><span style="padding-left: 47px">+61431 150 003</span><br/><span style="padding-left: 47px">+61425 732 711</span>
             </div>
-            <div class="footer-link">
-                <a href="#" alt="" class="tooltip" title="LinkedIn"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>
-                <a href="#" alt="" class="tooltip" title="Facebook"><img src="images/facebook.png" alt="" style="width: 50px; height: 50px;" /></a>
-                <a href="#" alt="" class="tooltip" title="Twitter"><img src="images/twitter.png" alt="" style="width: 50px; height: 50px;" /></a>
-                <a href="#" alt="" class="tooltip" title="Technorati"><img src="images/techno.png" alt="" style="width: 50px; height: 50px;" /></a>
+            <div class="footer-link" style="padding-left: 22px">
+                <a href="http://www.linkedin.com/company/snt3-consulting?trk=top_nav_home" alt="" class="tooltip" title="LinkedIn" target="_blank"><img src="images/linkedin.png" alt="" style="width: 50px; height: 50px;" /></a>
             </div>
         </div>
     </div>

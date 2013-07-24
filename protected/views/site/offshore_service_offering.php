@@ -13,7 +13,14 @@ Yii::app()->clientScript->registerScript("menu_highlight",
         <div class="main">
             <div class="wrapper">
                 <article>
-                    <h2 class="prev-indent-bot">Offshore Service Offering</h2>
+                    <div class="row">
+                        <div class="column"><h2 class="prev-indent-bot">Offshore Service Offering</h2></div>
+                        <div style="float: right; padding: 8px 200px 0 0">
+                            <a href="talent-acquisition" style="font-size: 18px; color: #666"><b>Talent Acquisition</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                            <a href="hosted-solutions" style="font-size: 18px; color: #666"><b>Hosted Solutions</b></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                     <section class="padding-top1">
                         <p class="justify"><img src="images/offshore_service_offering.png" align="left" style="padding: 0 20px 0 0"/>SNT3 offshore setup consulting services provides OnSite, OffSite&OffShore IT Staffing, IT Recruiting and IT Placement Services for Sri Lankan Offshore setup solutions.</p>
                         <h5 class="indent-bot">Here is what we exactly do for offshore setup:</h5>
