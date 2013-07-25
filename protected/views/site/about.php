@@ -13,7 +13,13 @@ Yii::app()->clientScript->registerScript("menu_highlight",
         <div class="main">
             <div class="wrapper">
                 <article>
-                    <h2 class="prev-indent-bot">About Us</h2>
+                    <div class="row">
+                        <div class="column" style="width: 433px"><h2 class="prev-indent-bot">About Us</h2></div>
+                        <div class="column" style="padding-top: 8px">
+                            <a href="team" style="font-size: 18px; color: #666"><b>Leadership Team</b></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                     <section class="padding-top1">
                         <p><img src="images/about.png" align="left" style="padding: 0 30px 20px 0" /></p>
                         <h5 class="indent-bot">What personnel make up the SNT3 Consulting team?</h5>

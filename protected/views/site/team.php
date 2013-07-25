@@ -13,7 +13,13 @@ Yii::app()->clientScript->registerScript("menu_highlight",
         <div class="main">
             <div class="wrapper">
                 <article>
-                    <h2 class="prev-indent-bot" style="padding-bottom: 20px">Leadership Team</h2>
+                    <div class="row">
+                        <div class="column"><h2 class="prev-indent-bot" style="padding-bottom: 20px">Leadership Team</h2></div>
+                        <div style="float: right; padding-top: 8px">
+                            <a href="about-us" style="font-size: 18px; color: #666"><b>About Us</b></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                     <div class="row" style="padding: 20px; background-color: #00A1DE; color: black"><b>Navin De Silva – Managing Partner</b></div>
                     <div class="row" style="padding: 10px; border: solid 1px #00A1DE">
                         <div class="column" style="width: 770px; padding-top: 10px">
