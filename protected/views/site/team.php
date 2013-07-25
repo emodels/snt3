@@ -3,7 +3,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
    "$('.sf-menu li a').each(function(){
        $(this).removeClass('current');
     });
-    $('#team a').addClass('current');"
+    $('#about_us a').addClass('current');"
     , CClientScript::POS_END    
 );
 ?>
