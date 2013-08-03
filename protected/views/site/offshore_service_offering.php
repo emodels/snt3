@@ -15,9 +15,10 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                 <article>
                     <div class="row">
                         <div class="column"><h2 class="prev-indent-bot">Offshore Service Offering</h2></div>
-                        <div style="float: right; padding: 8px 200px 0 0">
-                            <a href="talent-acquisition" style="font-size: 18px; color: #666"><b>Talent Acquisition</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                            <a href="hosted-solutions" style="font-size: 18px; color: #666"><b>Hosted Solutions</b></a>
+                        <div style="float: right; padding: 8px 0 0 0">
+                            <a href="talent-acquisition" style="font-size: 15px; color: #666"><b>Talent Acquisition</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                            <a href="mobile-application-development" style="font-size: 15px; color: #666"><b>Mobile Application Development</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                            <a href="hosted-solutions" style="font-size: 15px; color: #666"><b>Hosted Solutions</b></a>
                         </div>
                         <div class="clear"></div>
                     </div>

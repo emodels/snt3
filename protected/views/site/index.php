@@ -12,6 +12,11 @@ Yii::app()->clientScript->registerScript("menu_highlight",
     , CClientScript::POS_END    
 );
 ?>
+<style type="text/css">
+    #li_mobile {
+        /*width: 350px;*/
+    }
+</style>
 <div class="row-2" style="">
         <div class="slider-shadow"></div>
         <div class="main">
@@ -28,6 +33,10 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                     <li>
                         <img src="images/slide-3.jpg" alt="">
                         <div class="banner"><span class="slider-banner3"></span></div>
+                    </li>
+                    <li>
+                        <img src="images/slide-4.jpg" alt="">
+                        <div class="banner"><span class="slider-banner4"></span></div>
                     </li>
                 </ul>
                 <div class="controls">
@@ -103,6 +112,17 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                             <p class="color-1 p0">Stylish web Design using industry leading tools and technologies ...</p>
                             <div class="alignright">
                                 <a href="about-us" class="link-1">read more</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </li>
+                    <li id="li_mobile">
+                        <div class="list-number">07.</div>
+                        <div class="extra-wrap">
+                            <div class="topic">Mobile Apps</div>
+                            <p class="color-1 p0">High quality mobile application development services ...</p>
+                            <div class="alignright">
+                                <a href="mobile-application-development" class="link-1">read more</a>
                             </div>
                         </div>
                         <div class="clear"></div>

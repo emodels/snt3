@@ -58,6 +58,7 @@
                             <li><a href="talent-acquisition"><strong><strong>Talent Acquisition</strong></strong></a></li>
                             <li><a href="hosted-solutions"><strong><strong>Hosted Solutions</strong></strong></a></li>
                             <li><a href="offshore-service-offering"><strong><strong>Offshore Service Offerings</strong></strong></a></li>
+                            <li><a href="mobile-application-development"><strong><strong>Mobile Application Development</strong></strong></a></li>
                         </ul>
                     </li>
                     <li id="about_us"><a href="about-us"><strong><strong>about us</strong></strong></a>

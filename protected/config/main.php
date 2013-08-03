@@ -46,6 +46,7 @@ return array(
                                 'talent-acquisition' => array('site/TalentAcquisition', 'caseSensitive'=>false),
                                 'hosted-solutions' => array('site/HostedSolutions', 'caseSensitive'=>false),
                                 'offshore-service-offering' => array('site/OffshoreServiceOffering', 'caseSensitive'=>false),
+                                'mobile-application-development' => array('site/MobileApplicationDevelopment', 'caseSensitive'=>false),
                                 'about-us' => array('site/about', 'caseSensitive'=>false),
                                 'contact' => array('site/contact', 'caseSensitive'=>false),
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',

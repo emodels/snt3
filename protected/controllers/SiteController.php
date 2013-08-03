@@ -161,6 +161,53 @@ class SiteController extends Controller {
         $this->render('offshore_service_offering');
     }
 
+    public function actionMobileApplicationDevelopment(){
+        $model = new Enquiry();
+        
+        if (isset($_POST['Enquiry'])) {
+
+            $model->attributes = $_POST['Enquiry'];
+
+            $message = $this->renderPartial('//email/template/enquiry', array('model'=>$model), true);
+
+            if (isset($model) && isset($message) && $message != "") {
+                $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
+                $mailer->Host = Yii::app()->params['SMTP_Host'];
+                $mailer->Port = Yii::app()->params['SMTP_Port'];
+                if (Yii::app()->params['SMTPSecure'] == TRUE) {
+                    $mailer->SMTPSecure = 'ssl';
+                }
+                $mailer->IsSMTP();
+                $mailer->SMTPAuth = true;
+                $mailer->Username = Yii::app()->params['SMTP_Username'];
+                $mailer->Password = Yii::app()->params['SMTP_password'];
+                $mailer->From = Yii::app()->params['SMTP_Username'];
+                $mailer->AddReplyTo(Yii::app()->params['SMTP_Username']);
+                $mailer->AddAddress(Yii::app()->params['adminEmail']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_1']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_2']);
+                $mailer->AddAddress(Yii::app()->params['CCEmail_3']);
+                $mailer->FromName = 'SNT3';
+                $mailer->CharSet = 'UTF-8';
+                $mailer->Subject = 'Online Enquiry - Mobile Application Development';
+                $mailer->IsHTML();
+                $mailer->Body = $message;
+                $mailer->SMTPDebug = Yii::app()->params['SMTPDebug'];
+
+                try {
+                    $mailer->Send();
+                } catch (Exception $ex) {
+                    echo $ex->getMessage();
+                }
+            }
+
+            $model = new Enquiry();
+            Yii::app()->user->setFlash('success', 'Your Information Submitted');
+        }
+
+        $this->render('mobile_application_development', array('model' => $model));
+    }
+    
     public function actionAbout() {
         $this->render('about');
     }

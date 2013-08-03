@@ -250,6 +250,7 @@ background-image: linear-gradient(to bottom, #7B8182 0%, #D5DFE0 50%, #C8D3D4 75
 .banner .slider-banner1 {display:block; width:487px; height:264px; background:url(../images/slider-banner1.png) 0 0 no-repeat; margin-left: 100px}
 .banner .slider-banner2 {display:block; width:487px; height:264px; background:url(../images/slider-banner2.png) 0 0 no-repeat; margin-left: -400px}
 .banner .slider-banner3 {display:block; width:487px; height:264px; background:url(../images/slider-banner3.png) 0 0 no-repeat; margin-left: -400px}
+.banner .slider-banner4 {display:block; width:487px; height:264px; background:url(../images/slider-banner4.png) 0 0 no-repeat; margin-left: -400px}
 
 .slider .controls {position:absolute; right:21px; bottom:21px; overflow:hidden; z-index:99;}
 .slider .controls .next {float:right; font-size:18px; line-height:22px; color:#ff0000; text-decoration:none; padding-top: 4px; padding-right:10px; margin-left:32px; background:url(../images/slider-next.png) right 11px no-repeat;}
@@ -397,7 +398,7 @@ background-image: linear-gradient(to bottom, #7B8182 0%, #D5DFE0 50%, #C8D3D4 75
 /***************************Services Page**********************/
 #menu_Services ul li a:hover { background-color: #E5E5E5; border-radius: 5px; }
 #services_tabs .tab_button { 
-    padding: 20px; background-color: silver; margin: 10px 0 20px 0; border-radius: 5px; width: 220px; color: white; font-size: 18px; cursor: pointer;
+    padding: 20px; background-color: silver; margin: 10px 0 20px 0; border-radius: 5px; width: 270px; color: white; font-size: 18px; cursor: pointer;
     box-shadow: 5px 5px 5px #888888; text-decoration:  none; display: block;
     
 /* IE10 Consumer Preview */ 
