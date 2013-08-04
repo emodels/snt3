@@ -15,15 +15,16 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                 <article>
                     <div class="row">
                         <div class="column" style="width: 433px"><h2 class="prev-indent-bot">About Us</h2></div>
-                        <div class="column" style="padding-top: 8px">
-                            <a href="team" style="font-size: 18px; color: #666"><b>Leadership Team</b></a>
-                        </div>
                         <div class="clear"></div>
                     </div>
                     <section class="padding-top1">
-                        <p><img src="images/about.png" align="left" style="padding: 0 30px 20px 0" /></p>
+                        <img src="images/about.png" align="left" style="padding: 0 30px 20px 0" />
+                        <div id="services_tabs" class="column" style="width: 500px; padding: 0 0 15px 0">
+                            <a href="team" class="tab_button">Leadership Team</a>
+                        </div>
                         <h5 class="indent-bot">What personnel make up the SNT3 Consulting team?</h5>
                         <p class="justify">We bring top talent to each and every project. Our people drive our success, and they are genuinely committed to providing high-quality service to our clients. Our team members include our top industry resources as well as professionals with significant experience delivering large scale transformations at global organizations. Our senior leadership team will be composed of people who have successfully delivered multimillion dollar program in the Telecommunication, Finance, Utilities, Aviation, Energy and Defense industries.</p>
+                        <div class="clear"></div>
                         <h5 class="indent-bot">Why Choose SNT3 Consulting?</h5>
                         <p class="justify">Ability to successfully execute a project according to plan is always one of the top three criteria cited by our customers as they select an outsourced software services provider. SNT3 Consulting mitigates this risk via a flexible and proven global delivery model. We work with you to achieve the right mix of on‐site/off‐site and off‐shore resources based on your project requirements. All of our teams are led by Project Managers and Technical Leads experienced in global delivery. This approach ensures on‐time and on‐budget delivery while reducing the overall project cost and delivering a superior ROI for your project. </p>
                         <p class="justify">Methodology   Our 360° client satisfaction methodology, incorporating feedback from managers, peers and customers, empowers all SNT3 Consulting team members to deliver the best client service possible. It provides both you and SNT3 Consulting with tools to provide real‐time feedback on how to further improve your client service experience. The entire SNT3 Consulting team is rewarded for excellence in client service and SNT3 Consulting's HR policies are aligned with the individual team member's client service competency rating.</p>

@@ -6669,3 +6669,1866 @@ Stack trace:
 REQUEST_URI=/snt3/images/submenu-tail.png
 HTTP_REFERER=http://localhost/snt3/services
 ---
+2013/08/04 10:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/index.php
+---
+2013/08/04 10:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/index.php
+---
+2013/08/04 10:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/index.php
+---
+2013/08/04 10:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/index.php
+---
+2013/08/04 10:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/index.php
+---
+2013/08/04 10:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/mobile-application-development
+---
+2013/08/04 10:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:50:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:53:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 10:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:54:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 10:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 10:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:05:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:05:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:07:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:14:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:15:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:25:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 11:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 11:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/services
+---
+2013/08/04 11:29:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/talent-acquisition
+---
+2013/08/04 11:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/offshore-service-offering
+---
+2013/08/04 11:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/mobile-application-development
+---
+2013/08/04 11:29:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/hosted-solutions
+---
+2013/08/04 11:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/hosted-solutions
+---
+2013/08/04 11:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/hosted-solutions
+---
+2013/08/04 11:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/hosted-solutions
+---
+2013/08/04 11:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/contact
+---
+2013/08/04 11:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-right.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-right.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-left.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-left.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/submenu-tail.png".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('images/submenu-...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/images/submenu-tail.png
+HTTP_REFERER=http://localhost/snt3/team
+---
+2013/08/04 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/contact
+---
+2013/08/04 11:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/about-us
+---
+2013/08/04 11:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/prettyPhoto.css".' in C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampplite\htdocs\snt3\protected\framework\web\CWebApplication.php(135): CWebApplication->runController('css/prettyPhoto...')
+#1 C:\xampplite\htdocs\snt3\protected\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampplite\htdocs\snt3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snt3/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/snt3/team
+---
