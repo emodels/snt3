@@ -23,7 +23,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                         <div class="clear"></div>
                     </div>
                     <section class="padding-top1">
-                        <p class="justify"><img src="images/offshore_service_offering.png" align="left" style="padding: 0 20px 0 0"/>SNT3 offshore setup consulting services provides OnSite, OffSite&OffShore IT Staffing, IT Recruiting and IT Placement Services for Sri Lankan Offshore setup solutions.</p>
+                        <p class="justify"><img src="images/offshore_service_offering.png" align="left" style="padding: 0 20px 0 0"/>SNT3 offshore setup consulting services provides Onsite, Offsite & Offshore IT Staffing, IT Recruiting and IT Placement Services for Sri Lankan Offshore setup solutions.</p>
                         <h5 class="indent-bot">Here is what we exactly do for offshore setup:</h5>
                         <ul class="list-1 spacing-bot">
                             <li><a href="#" style="cursor: default" onclick="js:return false;">Formation of Branch office or subsidiary in Sri Lanka.</a></li>

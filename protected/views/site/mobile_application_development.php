@@ -1,19 +1,11 @@
 <?php 
+Yii::app()->getClientScript()->registerCssFile(Yii::app()->baseUrl . '/css/form.css');
 Yii::app()->clientScript->registerScript("menu_highlight",
    "$('.sf-menu li a').each(function(){
        $(this).removeClass('current');
     });
     $('#menu_Services a').addClass('current');"
     , CClientScript::POS_END    
-);
-?>
-<?php
-Yii::app()->getClientScript()->registerCssFile(Yii::app()->baseUrl . '/css/form.css');
-Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').each(function(){
-       $(this).removeClass('current');
-    });
-    $('#contact a').addClass('current');"
-        , CClientScript::POS_END
 );
 ?>
 <style type="text/css">

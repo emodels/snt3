@@ -39,7 +39,7 @@ Yii::app()->clientScript->registerScript("menu_highlight", "$('.sf-menu li a').e
                     </section>
                 </article>
                 <article class="padding-top">
-                    <h4>Job Seekers - Uplaod your CV</h4>
+                    <h4>Job Seekers - Upload your CV</h4>
                     <section class="padding-top1">
                         <div class="form">
                             <?php

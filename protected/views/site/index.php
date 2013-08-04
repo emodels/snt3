@@ -164,11 +164,11 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                 </article>
                 <article class="col-3">
                     <h2 class="p2">Our work is dedicated to the prosperity of our clients!</h2>
-                    <p class="p2" style="padding-top: 10px">We practice reusability, and our library of methods and components are an important part of our development framework. We are disciplined to best standards that are widely used in the IT industry.</p>
+                    <p class="p2" style="padding-top: 10px">We practice re-usability, and our library of methods and components are an important part of our development framework. We are disciplined to best standards that are widely used in the IT industry.</p>
                     <div class="wrapper indent-bot" style="padding-top: 10px">
                         <figure class="img-indent1"><a class="lightbox-image" href="images/image-blank.png" data-gal="prettyPhoto[gallery1]"><img class="img-box" src="images/page1-img1.jpg" alt=""></a></figure>
                         <div class="extra-wrap">
-                            <h6>We have many different tools<br> and methods for your busi-<br>ness developing.</h6>
+                            <h6>We have many different tools<br> and methods for your business developing.</h6>
                             We also understand the importance of proper documentation.
                         </div>
                     </div>
