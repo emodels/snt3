@@ -168,7 +168,7 @@ Yii::app()->clientScript->registerScript("menu_highlight",
                     <div class="wrapper indent-bot" style="padding-top: 10px">
                         <figure class="img-indent1"><a class="lightbox-image" href="images/image-blank.png" data-gal="prettyPhoto[gallery1]"><img class="img-box" src="images/page1-img1.jpg" alt=""></a></figure>
                         <div class="extra-wrap">
-                            <h6>We have many different tools<br> and methods for your business developing.</h6>
+                            <h6>We have different tools<br> and methodologies for your business development needs.</h6><br/>
                             We also understand the importance of proper documentation.
                         </div>
                     </div>
