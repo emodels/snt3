@@ -19,6 +19,7 @@ div.form input[type='text'] { width: 170px; }
     margin: 5px 0 15px 5px;
     float: left;
 }
+#yw0_button { float: left; }
 </style>
 <!--==============================content================================-->
 <section id="content">
@@ -119,6 +120,18 @@ div.form input[type='text'] { width: 170px; }
                                     <div class="column"><?php echo $form->textArea($model, 'message', array('style' => 'width:168px; height: 60px')); ?><?php echo $form->error($model, 'message'); ?></div>
                                     <div class="clearfix"></div>
                                 </div>
+                                <?php if(CCaptcha::checkRequirements()): ?>
+                                <div class="row">
+                                    <div class="column" style="width: 150px; padding-left: 16px">Verification Code</div>
+                                    <div class="column" style="width: 170px">
+                                        <?php $this->widget('CCaptcha'); ?>
+                                        <?php echo $form->textField($model,'verifyCode'); ?>
+                                        <div class="hint">Please enter the letters as they are shown in the image above.<br/>Letters are not case-sensitive.</div>
+                                        <?php echo $form->error($model,'verifyCode'); ?>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <?php endif; ?>
                                 <div class="row">
                                     <div class="column" style="width: 150px; padding-left: 16px">&nbsp;</div>
                                     <div class="column"><?php echo CHtml::submitButton('Submit Information', array('class' => 'button')); ?></div>

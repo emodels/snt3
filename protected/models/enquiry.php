@@ -16,6 +16,7 @@ class Enquiry extends CFormModel
 	public $nature_of_message;
 	public $subject;
 	public $message;
+	public $verifyCode;
 
 	/**
 	 * Declares the validation rules.
@@ -27,6 +28,7 @@ class Enquiry extends CFormModel
 			array('first_name, last_name, job_title, company, best_time_to_call, phone, mobile, email, nature_of_message, subject, message', 'required'),
 			// email has to be a valid email address
 			array('email', 'email'),
+                        array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
 		);
 	}
 
@@ -38,7 +40,7 @@ class Enquiry extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-                    
+                    'verifyCode'=>'Verification Code',
 		);
 	}
 }
